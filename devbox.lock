@@ -1,0 +1,57 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2025-06-27T03:16:46Z",
+      "resolved": "github:NixOS/nixpkgs/80d50fc87924c2a0d346372d242c27973cf8cdbf?lastModified=1750994206&narHash=sha256-3u6rEbIX9CN%2F5A5%2Fmc3u0wIO1geZ0EhjvPBXmRDHqWM%3D"
+    },
+    "natscli@latest": {
+      "last_modified": "2025-06-20T02:24:11Z",
+      "resolved": "github:NixOS/nixpkgs/076e8c6678d8c54204abcb4b1b14c366835a58bb#natscli",
+      "source": "devbox-search",
+      "version": "0.2.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/1dia1k5gp816xw3s09dh7zkfxb7d0mcd-natscli-0.2.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/1dia1k5gp816xw3s09dh7zkfxb7d0mcd-natscli-0.2.2"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/qrb03346w2lzw52n0qv14b2mcfaaxv18-natscli-0.2.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/qrb03346w2lzw52n0qv14b2mcfaaxv18-natscli-0.2.2"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/r3j3mxsz6wrd7j0fdp986vhhsb0r18yd-natscli-0.2.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/r3j3mxsz6wrd7j0fdp986vhhsb0r18yd-natscli-0.2.2"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/wm435gbc97g7ki753pgmmkzpblavybaw-natscli-0.2.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/wm435gbc97g7ki753pgmmkzpblavybaw-natscli-0.2.2"
+        }
+      }
+    }
+  }
+}
