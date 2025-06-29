@@ -1,0 +1,10 @@
+version: "0.5"
+
+processes:
+  kmm:
+    command: kmm serve
+    depends_on:
+      nats-server:
+        condition: process_started
+  nats-server:
+    command: nats server run kmm --jetstream
