@@ -5,6 +5,8 @@ processes:
     command: kmm serve
     depends_on:
       nats-server:
-        condition: process_started
+        condition: process_log_ready
+
   nats-server:
     command: nats server run kmm --jetstream
+    ready_log_line: "Server is ready"   
